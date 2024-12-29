@@ -10,14 +10,14 @@ _: {
     ./plugins/themes
 
     # Completion
-    # ./plugins/cmp/cmp.nix
+    ./plugins/cmp/cmp.nix
     # ./plugins/cmp/cmp-copilot.nix
-    # ./plugins/cmp/lspkind.nix
-    # ./plugins/cmp/autopairs.nix
-    # ./plugins/cmp/schemastore.nix
+    ./plugins/cmp/lspkind.nix
+    ./plugins/cmp/autopairs.nix
+    ./plugins/cmp/schemastore.nix
 
     # Snippets
-    # ./plugins/snippets/luasnip.nix
+    ./plugins/snippets/luasnip.nix
 
     # Editor plugins and configurations
     ./plugins/editor/neo-tree.nix
@@ -35,9 +35,9 @@ _: {
     ./plugins/ui/startup.nix
 
     # LSP and formatting
-    # ./plugins/lsp/lsp.nix
-    # ./plugins/lsp/conform.nix
-    # ./plugins/lsp/fidget.nix
+    ./plugins/lsp/lsp.nix
+    ./plugins/lsp/conform.nix
+    ./plugins/lsp/fidget.nix
 
     # Git
     ./plugins/git/lazygit.nix
