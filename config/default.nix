@@ -3,12 +3,12 @@ _: {
   imports = [
     # General Configuration
     ./settings.nix
-    # ./keymaps.nix
-    # ./auto_cmds.nix
-    # ./file_types.nix
+    ./keymaps.nix
+    ./auto_cmds.nix
+    ./file_types.nix
 
     # Themes
-    # ./plugins/themes
+    ./plugins/themes
 
     # Completion
     # ./plugins/cmp/cmp.nix
@@ -32,7 +32,7 @@ _: {
 
     # UI plugins
     # ./plugins/ui/bufferline.nix
-    # ./plugins/ui/lualine.nix
+     ./plugins/ui/lualine.nix
     # ./plugins/ui/startup.nix
 
     # LSP and formatting
