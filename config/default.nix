@@ -1,4 +1,3 @@
-
 _: {
   imports = [
     # General Configuration
@@ -21,19 +20,19 @@ _: {
     # ./plugins/snippets/luasnip.nix
 
     # Editor plugins and configurations
-    # ./plugins/editor/neo-tree.nix
-    # ./plugins/editor/treesitter.nix
-    # ./plugins/editor/undotree.nix
-    # ./plugins/editor/illuminate.nix
-    # ./plugins/editor/indent-blankline.nix
-    # ./plugins/editor/todo-comments.nix
+    ./plugins/editor/neo-tree.nix
+    ./plugins/editor/treesitter.nix
+    ./plugins/editor/undotree.nix
+    ./plugins/editor/illuminate.nix
+    ./plugins/editor/indent-blankline.nix
+    ./plugins/editor/todo-comments.nix
     # ./plugins/editor/copilot-chat.nix
-    # ./plugins/editor/navic.nix
+    ./plugins/editor/navic.nix
 
     # UI plugins
-    # ./plugins/ui/bufferline.nix
+    ./plugins/ui/bufferline.nix
      ./plugins/ui/lualine.nix
-    # ./plugins/ui/startup.nix
+    ./plugins/ui/startup.nix
 
     # LSP and formatting
     # ./plugins/lsp/lsp.nix
@@ -41,17 +40,17 @@ _: {
     # ./plugins/lsp/fidget.nix
 
     # Git
-    # ./plugins/git/lazygit.nix
-    # ./plugins/git/gitsigns.nix
+    ./plugins/git/lazygit.nix
+    ./plugins/git/gitsigns.nix
 
     # Utils
-    # ./plugins/utils/telescope.nix
-    # ./plugins/utils/whichkey.nix
-    # ./plugins/utils/extra_plugins.nix
-    # ./plugins/utils/mini.nix
-    # ./plugins/utils/markdown-preview.nix
-    # ./plugins/utils/obsidian.nix
-    # ./plugins/utils/toggleterm.nix
-    # ./plugins/utils/web-devicons.nix
+    ./plugins/utils/telescope.nix
+    ./plugins/utils/whichkey.nix
+    ./plugins/utils/extra_plugins.nix
+    ./plugins/utils/mini.nix
+    ./plugins/utils/markdown-preview.nix
+    ./plugins/utils/obsidian.nix
+    ./plugins/utils/toggleterm.nix
+    ./plugins/utils/web-devicons.nix
   ];
 }
