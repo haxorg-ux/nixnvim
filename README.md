@@ -1,0 +1,1 @@
+# nixnvim configuración
