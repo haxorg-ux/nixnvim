@@ -1,6 +1,6 @@
 
 {
-  description = "deCort.tech NeoVim configuration";
+  description = "m4teo.dev NeoVim configuration";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
