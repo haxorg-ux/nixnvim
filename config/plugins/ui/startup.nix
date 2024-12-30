@@ -1,6 +1,6 @@
 {
   plugins.startup = {
-    enable = false;
+    enable = true;
 
     colors = {
       background = "#ffffff";
